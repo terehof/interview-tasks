@@ -1,0 +1,35 @@
+
+.container {
+    position: relative;
+    height: 500px;
+    margin: 0 0 50px;
+}
+.container-bonus {
+    position: relative;
+    height: 250px;
+    margin: 0 0 30px;
+}
+.container-svg {
+    overflow: hidden;
+}
+p {
+    text-align: center;
+    font-family: Arial;
+}
+.link {
+    display: block;
+    width: 250px;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #46a941;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+    font-family: Arial;
+    transition: background .2s ease;
+}
+.link:hover {
+    background: #50c64a;
+}
